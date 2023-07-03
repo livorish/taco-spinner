@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  background: #f0f5f5;
+  display: grid;
+  min-height: 100vh;
+}
+
+.app-frame {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 568px;
+  margin: auto;
+  overflow: auto;
+  width: 320px;
+}
+
+.page {
+  padding: 15px;
+}
+
+.navbar {
+  background: #3f4243;
+  color: #fff;
+  height: 60px;
+  padding: 0 15px;
+}
+
+.brand {
+  color: #fff;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background: #fff;
+  color: #1e1f1f;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #2eb2d0;
+  transition: color 0.2s ease;
+}
+a:focus, a:hover {
+  color: #2eb2d0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  line-height: 1.2;
+  margin: 0 0 0.2em;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+h6 {
+  color: #868e8f;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1.4em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #f0f5f5;
+  height: 0;
+  margin: 1.4em 0;
+}
+
+.btn,
+button {
+  background: #3f4243;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.125em;
+  font-weight: 200;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 1em;
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.btn:focus, .btn:hover,
+button:focus,
+button:hover {
+  background-color: #3a3d3e;
+}
+.btn:active,
+button:active {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+}
+.btn.light,
+button.light {
+  background-color: #b2bcbd;
+}
+.btn.medium,
+button.medium {
+  background-color: #868e8f;
+}
+.btn.info,
+button.info {
+  background-color: #2eb2d0;
+}
+.btn.danger,
+button.danger {
+  background-color: #cd2e38;
+}
+.btn.success,
+button.success {
+  background-color: #49d37c;
+}
+.btn.warning,
+button.warning {
+  background-color: #e6b435;
+}
+.btn.primary,
+button.primary {
+  background-color: #2eb2d0;
+}
+
+/*# sourceMappingURL=/theme.82656db4.css.map */
